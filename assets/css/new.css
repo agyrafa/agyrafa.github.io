@@ -1,0 +1,19 @@
+#two .row > div {
+  width: 100%;
+  display: block;
+}
+#two .labeled-icons {
+  float: left;
+  width: 100%;
+  display: block;
+}
+#two .labeled-icons li {
+  width: 50%;
+  float: left;
+}
+
+@media(max-width:768px){
+  #two .labeled-icons li {
+    width: 100%;
+  }
+}
